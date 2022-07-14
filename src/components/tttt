@@ -1,0 +1,240 @@
+<template>
+  <div class="privacy">
+    <div class="main">
+      <div class="privacy-content-1">
+        <div class="grid">
+          <h3>Projects</h3>
+          <div class="sort-btn">
+            <button class="btn">
+              <i class="las la-sort-amount-up"></i>
+              Sort
+              <i class="las la-caret-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="privacy-content">
+        <div class="grid">
+          <div class="flex">
+            <div class="icon">
+              <i class="lar la-dot-circle"></i>
+            </div>
+            <div class="title">
+              <h3>Kitetail</h3>
+              <div class="content-flex">
+                <div class="icon">
+                  <i class="lab la-github"></i>
+                </div>
+                <div class="passage">
+                  <p>Debbietorera/workcation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sort">
+            <div class="so-flex">
+              <h3>Visit site</h3>
+              <div class="icon">
+                <i class="las la-star"></i>
+              </div>
+            </div>
+            <div class="sort-flex">
+             <div class="flex">
+                <div class="flex">
+                  <i class="lab la-node-js"></i>
+                  <div class="icon-name">
+                    <p>Vue.JS</p>
+                  </div>
+                </div>
+                <div class="date">
+                  <p>last deploy <span>3 hours ago</span></p>
+                </div>
+                <div class="state">
+                  <p>United state</p>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="privacy-content">
+        <div class="flex">
+          <div class="icon">
+          <i class="las la-bell"></i>
+          </div>
+          <h3>Notifications</h3>
+        </div>
+        <div class="passage">
+          <p>This Project would be available to anyone who has the link</p>
+        </div>
+      </div>
+      <div class="privacy-content">
+        <div class="flex">
+          <div class="icon">
+        <i class="las la-image"></i>
+          </div>
+          <h3>Appearance</h3>
+        </div>
+        <div class="passage">
+          <p>This Project would be available to anyone who has the link</p>
+        </div>
+      </div>
+       <div class="privacy-content">
+        <div class="flex">
+          <div class="icon">
+          <i class="las la-wallet"></i>
+          </div>
+          <h3>Billings</h3>
+        </div>
+        <div class="passage">
+          <p>This Project would be available to anyone who has the link</p>
+        </div>
+      </div>
+       <div class="privacy-content">
+        <div class="flex">
+          <div class="icon">
+          <i class="las la-university"></i>
+          </div>
+          <h3>Integrations</h3>
+        </div>
+        <div class="passage">
+          <p>This Project would be available to anyone who has the link</p>
+        </div>
+      </div>
+       <div class="privacy-content">
+        <div class="flex">
+          <div class="icon">
+            <i class="las la-play-circle"></i>
+          </div>
+          <h3>Available to hire</h3>
+        </div>
+        <div class="passage">
+          <p>This Project would be available to anyone who has the link</p>
+        </div>
+      </div>
+       <div class="privacy-content">
+        <div class="flex">
+          <div class="icon">
+            <i class="las la-play-circle"></i>
+          </div>
+          <h3>Available to hire</h3>
+        </div>
+        <div class="passage">
+          <p>This Project would be available to anyone who has the link</p>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+.privacy-title {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.privacy-content {
+  border: 1px solid #e5e4e2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 40px;
+  /* border-radius: 5px; */
+}
+.lar {
+  font-size: 16px;
+  color: greenyellow;
+  background: greenyellow;
+  border-radius: 50%;
+  font-size: 14px;
+  margin: 5px 5px;
+}
+.icon .las {
+  margin: 0px 5px;
+  padding-left: 10px;
+  color: gold;
+}
+.content-flex {
+  display: flex;
+  margin: 0px -20px;
+}
+.sort-flex {
+  display: flex;
+  
+}
+
+.sort-flex .lab {
+font-size: 24px;
+ margin: 0px 5px;
+}
+.sort h3{
+  /* margin: 0px 90px; */
+  /* padding-right: 60px; */
+}
+
+.sort-info {
+  padding-left: 0px;
+}
+.sort-info p {
+  /* padding-right: 15px;  */
+  margin: 0px 5px;
+}
+.lab {
+  font-size: 28px;
+  margin: 2px -5px;
+}
+
+.privacy-content h3 {
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+.passage p {
+  margin: 5px 0px;
+  padding-left: 12px;
+  color: #999;
+}
+
+.flex {
+  display: flex;
+}
+.grid {
+  display: flex;
+  justify-content: space-between;
+}
+.privacy-content-1 {
+  background: #f0f8ff;
+  border: 1px solid #e5e4e2;
+  /* border-radius: 5px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.privacy-content-1 h3 {
+  font-size: 23px;
+  padding-bottom: 10px;
+}
+.las {
+  padding-right: 20px;
+  font-size: 19px;
+}
+button {
+
+  padding: 10px 10px;
+  border: none;
+
+  font-size: 16px;
+  border-radius: 7px;
+}
+.main p {
+  margin-left: 10px;
+}
+.tips {
+  margin-top: 40px;
+}
+</style>
